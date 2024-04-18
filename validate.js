@@ -1,4 +1,4 @@
-const {isNotaryToolAvailable} = require('electron-notarize/lib/notarytool');
+const { isNotaryToolAvailable } = require('electron-notarize/lib/notarytool');
 const {
 	validateNotaryToolAuthorizationArgs,
 	validateLegacyAuthorizationArgs
@@ -10,7 +10,7 @@ function getAuthInfo() {
 		APPLE_ID_PASSWORD: appleIdPassword,
 		APPLE_API_KEY: appleApiKey,
 		APPLE_API_KEY_ID: appleApiKeyId,
-		APPLE_API_KEY_ISSUER: appleApiIssuer,
+		APPLE_API_ISSUER: appleApiIssuer,
 		API_KEY_ID: legacyApiKey,
 		API_KEY_ISSUER_ID: legacyApiIssuer,
 		TEAM_SHORT_NAME: teamShortName,
