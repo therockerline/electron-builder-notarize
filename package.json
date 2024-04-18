@@ -32,8 +32,8 @@
 	],
 	"dependencies": {
 		"dotenv": "^8.2.0",
-		"@electron/notarize": "github:therockerline/notarize",
 		"js-yaml": "^3.14.0",
+		"@electron/notarize": "github:therockerline/notarize#customizations",
 		"read-pkg-up": "^7.0.0"
 	},
 	"devDependencies": {

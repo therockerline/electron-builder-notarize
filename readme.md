@@ -49,7 +49,7 @@ Authentication methods:
 - apiKey with apiIssuer:
   - `APPLE_API_KEY` String - Required for JWT authentication. See Note on JWT authentication below.
   - `APPLE_API_KEY_ID` String - Required for JWT authentication. See Note on JWT authentication below.
-  - `APPLE_API_KEY_ISSUER` String - Issuer ID. Required if `APPLE_API_KEY` is specified.
+  - `APPLE_API_ISSUER` String - Issuer ID. Required if `APPLE_API_KEY` is specified.
 - keychain with keychainProfile:
   - `APPLE_KEYCHAIN` String - The name of the keychain or path to the keychain you stored notarization credentials in.
   - `APPLE_KEYCHAIN_PROFILE` String - The name of the profile you provided when storing notarization credentials.
